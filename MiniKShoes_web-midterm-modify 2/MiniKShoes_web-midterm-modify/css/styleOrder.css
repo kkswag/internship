@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+header{
+    width: 1280px;
+    height: 111px;
+    /* background-color: blue; */
+}
+.head{
+    width: 1280px;
+    height: 111px;
+    background-color: black;
+    float: left;
+    position: fixed;
+    z-index: 99;
+}
+.logo img{
+    width: 153px;
+    height: 69px;
+    float: left;
+    margin-left: 138px;
+    margin-top: 18px;
+}
+.menu{
+    float: right;
+    margin: 45px 138px 0 0;
+ 
+}
+.menu a{
+    color: white;
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: Noto Sans;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #D8D3CD;
+    text-decoration: underline;
+}
+.backAll{
+    width: 1280px;
+    height: 1081px;
+    float: left;
+    /* background-color: yellowgreen; */
+}
+.box{
+    width: 1004px;
+    height: 998px;
+    float: left;
+    margin-left: 138px;
+    /* background-color: violet; */
+    margin-top: 83px;
+}
+.box h1{
+    font-family: Noto sans;
+    font-size: 48px;
+    font-weight: bold;
+    color: #3D3D3D;
+    margin-bottom: 32px;
+}
+.boxPic{
+    width: 1004px;
+    height: 290px;
+    /* background-color: turquoise; */
+    float: left;
+}
+.box1{
+    width: 324px;
+    height: 290px;
+    float: left;
+    /* background-color: tomato; */
+    margin-right: 16px;
+}
+.box1 img{
+    width: 324px;
+    height: 231px;
+    float: left;
+}
+.text1{
+    width: 324px;
+    height: 59px;
+    float: left;
+    background-color: #F7F2E7;
+}
+.text1 h1{
+    font-family: Noto sans;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3D3D3D;
+    margin: 13px 0 0 10px;
+    float: left;
+}
+.button1{
+    width: 82px;
+    height: 34px;
+    background-color: #cf7500;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    font-family: Kanit;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.button1:hover{
+    color: #cf7500;
+    background-color: white;
+}
+.button4{
+    width: 82px;
+    height: 34px;
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    font-family: Kanit;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.button4:hover{
+    color: #f0a500;
+    background-color: white;
+}
+.box2{
+    width: 324px;
+    height: 290px;
+    float: left;
+    /* background-color: teal; */
+    margin-right: 16px;
+}
+.box2 img{
+    width: 324px;
+    height: 231px;
+    float: left;
+}
+.text2{
+    width: 324px;
+    height: 59px;
+    float: left;
+    background-color: #F7F2E7;
+}
+.text2 h1{
+    font-family: Noto sans;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3D3D3D;
+    margin: 13px 0 0 10px;
+    float: left;
+}
+.button2{
+    width: 82px;
+    height: 34px;
+    background-color: #cf7500;
+    color: white;
+    border: none;
+    margin-left: 1px;
+    font-family: Kanit;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.button2:hover{
+    color: #cf7500;
+    background-color: white;
+}
+.button5{
+    width: 82px;
+    height: 34px;
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    font-family: Kanit;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.button5:hover{
+    color: #f0a500;
+    background-color: white;
+}
+.box3{
+    width: 324px;
+    height: 290px;
+    float: left;
+    /* background-color: teal; */
+}
+.box3 img{
+    width: 324px;
+    height: 231px;
+    float: left;
+}
+.text3{
+    width: 324px;
+    height: 59px;
+    float: left;
+    background-color: #F7F2E7;
+}
+.text3 h1{
+    font-family: Noto sans;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3D3D3D;
+    margin: 13px 0 0 10px;
+    float: left;
+}
+.button3{
+    width: 82px;
+    height: 34px;
+    background-color: #cf7500;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    font-family: Kanit;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.button3:hover{
+    color: #cf7500;
+    background-color: white;
+}
+.button6{
+    width: 82px;
+    height: 34px;
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    font-family: Kanit;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.button6:hover{
+    color: #f0a500;
+    background-color: white;
+}
+.back-foo{
+    width: 1280px;
+    height: 156px;
+    float: left;
+    background-color: black;
+}
+.box-foo{
+    width: 1004px;
+    height: 156px;
+    float: left;
+    /* background-color: violet; */
+    margin-left: 138px;
+}
+.text-foo{
+    width: 409px;
+    height: 156px;
+    float: left;
+    /* background-color: burlywood; */
+}
+.text-foo h1{
+    color: white;
+    font-family: Noto sans;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 55px 0 21px 10px;
+}
+.text-foo h2{
+    color: white;
+    font-family: Noto sans;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.pic-foo{
+    width: 255px;
+    height: 156px;
+    /* background-color: green; */
+    float: right;
+}
+.picFoo-1{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #737373;
+    float: left;
+    margin: 55px 0 0 10px;
+}
+.picFoo-1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 0 0 4px;
+}
+.picFoo-2{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #737373;
+    float: left;
+    margin: 55px 0 0 10px;
+}
+.picFoo-2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 0 0 4px;
+}
+.picFoo-3{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #737373;
+    float: left;
+    margin: 55px 0 0 10px;
+}
+.picFoo-3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 0 0 4px;
+}
+.picFoo-4{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #737373;
+    float: left;
+    margin: 55px 0 0 10px;
+}
+.picFoo-4 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 0 0 4px;
+}

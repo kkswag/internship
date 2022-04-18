@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini K Shoes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" 
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <!-- <script src="js/menu_button.js"></script> -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({pager: false});
+            $('.bxslider2').bxSlider({pager: true, controls: false , auto: true , pause: 3000});
+        });
+    </script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="head">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logoWeb2">
+                    </a>
+                </div>
+
+                <div class="menu">
+                    <a href="#products">Products</a>
+                    <a href="#about">About</a>
+                    <a href="#service">Our service</a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="myOrder.html"><i class="fas fa-user"></i></a>
+                </div>
+            </div><!--head-->
+        </header>
+
+        <section>
+            <div id="home" class="voucher">
+                <div class="box-vou">
+                    <ul class="bxslider2">
+                        <li>
+                            <img src="images/voucher">
+                        </li>
+                        <li>
+                            <img src="images/voucher">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="func">
+                <div class="box-try">
+                    <div class="boxPic-try">
+                        <img src="images/mobileTry.png">
+                    </div>
+
+                    <div class="boxText-try">
+                        <h1>Try Shoes At <span>Home</span></h1>
+                        <h2>
+                            เนื่องจากสถานการณ์ไวรัส Covid-19 ทำให้ทุกคนต่างกันอยู่แต่ในบ้าน ทางร้าน 
+                            ของเราจึงได้มี Feature ลองรองเท้าผ่าน Smartphone ทำให้คุณลูกค้าสุภาพสตรี 
+                            ทุกท่าน ได้รองสวมใส่รองเท้าผ่านเทคโนโลยี AR ได้รองใส่คู่ที่ต้องการ 
+                            ก่อนที่จะซื้อสินค้าจริง
+                        </h2>
+                        <button class="button1">ทดลองใส่รองเท้า</button>
+                    </div>
+                </div><!--box-try-->
+
+                <div class="line">
+                    <div class="line1"></div>
+                    <p>OR</p>
+                    <div class="line2"></div>
+                </div><!--line-->
+
+                <div class="box-foot">
+                    <div class="boxText-foot">
+                        <h1><span>Measure</span> Your Foot</h1>
+                        <h2>หากท่านลูกค้าสุภาพสตรี ไม่มั่นใจในขนาดของเท้าตัวเอง ทางร้านเราได้มี Feature
+                             สำหรับวัดขนาดเท้าของท่านผ่านเทคโนโลยีของเรา ทำให้ท่าลูกค้าสุภาพสตรีได้วัด
+                             ขนาดไซส์เท้าของตัวเอง โดยไม่ต้องไปหาไม้บรรทัดมาวัด เพียงแค่ใช้ Smartphone
+                             ของท่าน</h2>
+                        <button class="button2">วัดไซส์เท้า</button>
+                    </div>
+
+                    <div class="boxPic-foot">
+                        <img src="images/mobileFoot.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="products" class="our">
+                <div class="ourBack">
+                    <div class="ourText">
+                        <h1>Our Products</h1>
+                        <h2>สินค้าภายในร้านค้าของเรา มีหลากหลายประเภทให้เลือกสรร เหมาะกับทุกวัย <br>
+                            ตามสไตล์ของแต่ละบุคคล อีกทั้งยังผลิตจากวัสดุคุณภาพสูง ทนทาน อีกทั้งยังหรูหร่าในเวลาเดียวกัน <br>
+                            เหมาะทั้งใส่ทำงาน ใส่ไปงานเลี้ยง ใส่ออกกำลังกาย หรือแม้แต่ใส่เดินเล่น </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="cate">
+                <div class="box-cate">
+                    <div class="text-cate">
+                        <p>Product Category</p>
+                    </div>
+
+                    <div class="menu-cate">
+                        <div class="pic-menu">
+                            <button onclick="filterSelection('all')" class="buttonAll"><img src="images/highheels"></button>
+                            <button onclick="filterSelection('Shoes1')" class="button3"><img src="images/highheels"></button>
+                            <button onclick="filterSelection('Shoes2')" class="button4"><img src="images/highheels"></button>
+                            <button onclick="filterSelection('Shoes3')" class="button5"><img src="images/highheels"></button>
+                            <button onclick="filterSelection('Shoes4')" class="button6"><img src="images/highheels"></button>
+                            <button onclick="filterSelection('Shoes5')" class="button7"><img src="images/highheels"></button>
+                        </div>
+                        <div class="text-menu">
+                            <h6>ทั้งหมด</h6>
+                            <h1>รองเท้าส้นสูง</h1>
+                            <h2>รองเท้าทางการ</h2>
+                            <h3>รองเท้าใส่เล่น</h3>
+                            <h4>รองเท้าผ้าใบ</h4>
+                            <h5>รองเท้าแฟชั่น</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div><!--cate-->
+        </section>
+
+        <section>
+            <div class="product">
+                <div class="box-pro">
+                    <!-- <div class="box1"> -->
+                        <div class="pic1 filterDiv Shoes1 Shoes2 Shoes5">
+                            <img class="image" src="images/1.jpg">
+                            <div class="text1">
+                                <p>Diana Heels 2" <span>2,990 ฿</span></p>
+                            </div>
+                            <div class="middle">
+                                <button class="button-default">ดูรายละเอียดสินค้า</button>
+                            </div>
+                        </div>
+
+                        <div class="pic2 filterDiv Shoes1 Shoes2 Shoes5">
+                            <img class="image" src="images/2.jpg">
+                            <div class="text2">
+                                <p>Kendall High Heels <span>3,990 ฿</span></p>
+                            </div>
+                            <div class="middle">
+                                <button class="button-default">ดูรายละเอียดสินค้า</button>
+                            </div>
+                        </div>
+
+                        <div class="pic3 filterDiv Shoes1 Shoes2 Shoes5">
+                            <img class="image" src="images/3.jpg">
+                            <div class="text3">
+                                <p>Diana Crest 3.2" <span>4,590 ฿</span></p>
+                            </div>
+                            <div class="middle">
+                                <button class="button-default">ดูรายละเอียดสินค้า</button>
+                            </div>
+                        </div>
+
+                        <div class="pic4 filterDiv Shoes2 Shoes5">
+                            <img class="image" src="images/4.jpg">
+                            <div class="text4">
+                                <p>Audrey Wedge <span>3,590 ฿</span></p>
+                            </div>
+                            <div class="middle">
+                                <button class="button-default">ดูรายละเอียดสินค้า</button>
+                            </div>
+                        </div>
+
+                        <div class="pic5 filterDiv Shoes2">
+                            <img class="image" src="images/5.jpg">
+                            <div class="text5">
+                                <p>Audrey Formal <span>3,590 ฿</span></p>
+                            </div>
+                            <div class="middle">
+                                <button class="button-default">ดูรายละเอียดสินค้า</button>
+                            </div>
+                        </div>
+
+                        <div class="pic6 filterDiv Shoes3 Shoes4">
+                            <img class="image" src="images/6.jpg">
+                            <div class="text6">
+                                <p>Skechers 23490 <span>1,490 ฿</span></p>
+                            </div>
+                            <div class="middle">
+                                <button class="button-default">ดูรายละเอียดสินค้า</button>
+                            </div>
+                        </div>
+
+                        <div class="pic7 filterDiv Shoes3 Shoes4">
+                            <img class="image" src="images/7.jpg">
+                            <div class="text7">
+                                <p>Fila Ray Tracer <span>2,090 ฿</span></p>
+                            </div>
+                            <div class="middle">
+                                <button class="button-default">ดูรายละเอียดสินค้า</button>
+                            </div>
+                        </div>
+
+                        <div class="pic8 filterDiv Shoes3 Shoes4">
+                            <img class="image" src="images/8.jpg">
+                            <div class="text8">
+                                <p>Fila Oakmont TR <span>2,090 ฿</span></p>
+                            </div>
+                            <div class="middle">
+                                <button class="button-default">ดูรายละเอียดสินค้า</button>
+                            </div>
+                        </div>
+
+                        <a href="Feature.html">
+                            <div class="pic9 filterDiv Shoes3">
+                                <img class="image" src="images/10.jpg">
+                                <div class="text9">
+                                    <p>Oandb Sandals <span>2,890 ฿</span></p>
+                                </div>
+                                <div class="middle">
+                                    <button href="Feature.html" class="button-default">ดูรายละเอียดสินค้า</button>
+                                </div>
+                            </div>
+                        </a>
+                </div>
+                <button class="button8">กดดูสินค้าทั้งหมด</button>
+            </div><!--product-->
+        </section>
+
+        <section>
+            <div id="about" class="About">
+                <div class="box-about">
+                    <div class="boxText-about">
+                        <h1>About Us</h1>
+                        <h2>ร้านค้าของเรา จัดตั้งขึ้นมาเพื่อมอบสิ่งดีๆให้กับลูกค้า <br>
+                            สุภาพสตรี ทั้งรองเท้าใส่ออกงาน รองเท้าใส่ทำงาน <br>
+                             หรือรองเท้าใส่เล่น อีกทั้งยังมอบความสะดวกสบายใน <br>
+                             งานบริการให้กับคุณลูกค้าสุภาพสตรี ทั้งนี้เพื่อมอบ <br>
+                             ประสบการณ์ในการซื้อรองเท้าออนไลน์ตามวิถีชีวิตแบบ <br>
+                             New Normal </h2>
+                    </div>
+
+                    <div class="boxPic-about">
+                        <div class="pic-ab1">
+                            <img src="images/ab1.jpg">
+                        </div>
+                        <div class="pic-ab2">
+                            <img src="images/ab2.jpg">
+                        </div>
+                        <div class="pic-ab3">
+                            <img src="images/ab3.jpg">
+                        </div>
+                    </div>
+
+                </div>
+            </div><!--About-->
+        </section>
+
+        <section>
+            <div id="service" class="our-ser">
+                <div class="box-ser">
+                    <div class="boxText-ser">
+                        <h1>Our Services</h1>
+                        <h2>นอกจากสินค้าที่เต็มเปี่ยมไปด้วยคุณภาพ ทางร้านของเรายังประกอบไปด้วยงานบริการชั้นยอดได้แก่</h2>
+                    </div>
+
+                    <div class="boxPic-ser">
+                        <div class="picSer1">
+                            <div class="picser-F">
+                                <img src="images/fast-delivery.png">
+                                <div class="boxSer-text1">
+                                    <h1>Fast Delivery</h1>
+                                    <h2>สินค้าจัดส่งไว ภายใน 24 ชั่วโมงหลับจากได้ยอดชำระ
+                                        เงิน เมื่อจัดส่งภายในกรุงเทพมหานคร และภายใน 3 วัน
+                                        เมื่อจัดส่งต่างจังหวัด</h2>
+                                </div>
+                            </div><!--picser-F-->
+
+                            <div class="picser-P">
+                                <img src="images/price-tag.png">
+                                <div class="boxSer-text2">
+                                    <h1>Price Reasonable</h1>
+                                    <h2>ร้านค้าของเรา เมื่อเทียบกับวัสดุ และความทนทาน <br>
+                                        ของสินค้า ถือว่าคุ้มค้า คุ้มราคากับผู้ซื้อเป็นอย่าง <br>
+                                        มาก อีกทั้งร้านของเรายังมีโปรโมชั่นเพื่อเอาใจสาย <br>
+                                        ช็อปอีกด้วย</h2>
+                                </div>
+                            </div><!--picser-P-->  
+                        </div>
+
+                        <div class="picSer2">
+                            <div class="picser-R">
+                                <img src="images/refund.png">
+                                <div class="boxSer-text3">
+                                    <h1>Fast Refund</h1>
+                                    <h2>เมื่อลูกค้าใส่สินค้าไม่พอดี หรือสั่งผิด ทางร้านมีบริการ <br>
+                                        รับคืนสินค้าที่หน้าบ้านของท่าน เพื่อความสะดวกสบาย <br>
+                                        และประหยัดเวลา</h2>
+                                </div>
+                            </div><!--picser-R-->
+
+                            <div class="picser-S">
+                                <img src="images/24-hours.png">
+                                <div class="boxSer-text4">
+                                    <h1>24/7 Service</h1>
+                                    <h2>หากลูกค้ามีข้อสงสัยเกี่ยวกับสินค้าและบริการของ <br>
+                                        เรา ทางร้านมีบริการ Call center เพื่อไขข้อสงสัย <br>
+                                         และพร้อมบริการลูกค้า ตลอด 24 ชั่วโมง</h2>
+                                </div>
+                            </div><!--picser-S-->  
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="back-foo">
+                <div class="box-foo">
+                    <div class="text-foo">
+                        <h1>Minik Shoes</h1>
+                        <h2>Copyright © Minik Shoes. All rights reserved.</h2>
+                    </div>
+
+                    <div class="pic-foo">
+                        <div class="picFoo-1">
+                            <img src="images/facebook.jpg">
+                        </div>
+                        <div class="picFoo-2">
+                            <img src="images/mail.jpg">
+                        </div>
+                        <div class="picFoo-3">
+                            <img src="images/twitter.jpg">
+                        </div>
+                        <div class="picFoo-4">
+                            <img src="images/ig.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div><!--wrapper-->
+
+    <script>
+        filterSelection('all')
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+    </script>
+</body>
+</html>

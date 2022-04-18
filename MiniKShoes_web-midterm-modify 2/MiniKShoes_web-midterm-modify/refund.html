@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mini K Shoes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" 
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styleRefund.css">
+    
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <!-- <script src="js/menu_button.js"></script> -->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.bxslider').bxSlider({pager: false});
+                $('.bxslider2').bxSlider({pager: true, controls: false , auto: true , pause: 3000});
+            });
+        </script>
+    
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="head">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logoWeb2">
+                    </a>
+                </div>
+
+                <div class="menu">
+                    <a href="#products">Products</a>
+                    <a href="#about">About</a>
+                    <a href="#service">Our service</a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="myOrder.html"><i class="fas fa-user"></i></a>
+                </div>
+            </div><!--head-->
+        </header>
+        <section>
+            <div class="backAll">
+                <div class="box">
+                    <h1>My Order Refund</h1>
+                    <h2>ลูกค้าสามารถคืนสินค้าได้ กรุณาใส่ข้อมูลและเหตุผลในการคืนสินค้า</h2>
+                    <div class="left">
+                        <div class="pic1">
+                            <img src="images/10.jpg">
+                        </div>
+                        <div class="row1">
+                            <img id="imagerow1" src="images/11.jpg">
+                            <img id="imagerow2" src="images/12.jpg">
+                            <img id="imagerow3" src="images/13.jpg">
+                        </div>
+                    </div><!--left-->
+
+                    <div class="right">
+                        <input type="text" class="name" placeholder="ชื่อ-สกุล"> <br>
+                        <input type="text" class="number" placeholder="เบอร์โทรศัพท์"> <br>
+                        <input type="text" class="address" placeholder="ที่อยู่ที่ต้องการคืนสินค้า"> <br>
+                        <input type="text" class="detail" placeholder="เหตุผลที่ต้องการคืนสินค้า"> <br>
+                        <p>* กรุณากรอกเหตุผลที่ต้องการคืนสินค้าเพื่อประโยชของท่าน <br> แล้วเราจะทำการติดต่อกลับให้เร็วที่สุด</p>
+                        <button class="button1">ขอคืนสินค้า</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="back-foo">
+                <div class="box-foo">
+                    <div class="text-foo">
+                        <h1>Minik Shoes</h1>
+                        <h2>Copyright © Minik Shoes. All rights reserved.</h2>
+                    </div>
+
+                    <div class="pic-foo">
+                        <div class="picFoo-1">
+                            <img src="images/facebook.jpg">
+                        </div>
+                        <div class="picFoo-2">
+                            <img src="images/mail.jpg">
+                        </div>
+                        <div class="picFoo-3">
+                            <img src="images/twitter.jpg">
+                        </div>
+                        <div class="picFoo-4">
+                            <img src="images/ig.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini K Shoes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" 
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/styleF1.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({pager: false});
+            $('.bxslider2').bxSlider({pager: true, controls: false , auto: true , pause: 3000});
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="head">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logoWeb2">
+                    </a>
+                </div>
+
+                <div class="menu">
+                    <a href="index.html">Products</a>
+                    <a href="index.html">About</a>
+                    <a href="index.html">Our service</a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="myOrder.html"><i class="fas fa-user"></i></a>
+                </div>
+            </div><!--head-->
+        </header>
+
+        <section>
+            <div class="backAll">
+                <div class="backPro">
+                    <div class="left">
+                        <div class="centerPic">
+                            <img id="imageDisplay" src="images/10.jpg">
+                        </div>
+
+                        <div class="rowPic">
+                            <img id="imageRow1" onClick="changeImage('images/11.jpg', 'images/16.jpg')" class="pic11" src="images/11.jpg">
+                            <img id="imageRow2" onClick="changeImage('images/12.jpg', 'images/15.jpg')" class="pic12" src="images/12.jpg">
+                            <img id="imageRow3" onClick="changeImage('images/13.jpg', 'images/17.jpg')" class="pic13" src="images/13.jpg">
+                        </div>
+
+                        <div class="buttonFea">
+                            <h1>ทดลองใส่รองเท้า</h1>
+                            <button class="button1">ทดลองใส่รองเท้า</button>
+                            
+                            <div class="line">
+                                <div class="line1"></div>
+                                <p>OR</p>
+                                <div class="line2"></div>
+                            </div><!--line-->
+
+                            <button class="button2">วัดไซส์เท้า</button>
+                            <h2>* หากท่านลูกค้าต้องการทดลองใส่รองเท้าหรือต้องการวัดไซส์เท้า กรุณาเปิดผ่าน Smartphone</h2>
+                        </div>
+                    </div><!--left-->
+
+                    <div class="right">
+                        <div class="box-1">
+                            <h1>Oandb Sandals <span>2,890 ฿</span></h1>
+                            <div class="star">
+                                <style>
+                                    .checked {
+                                    color: yellow;
+                                    }
+                                </style>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span>(139)</span>
+                            </div>
+                            <h2>เลือกไซส์</h2>
+                            <div class="size">
+                                <button class="button36">36</button>
+                                <button class="button37">37</button>
+                                <button class="button38">38</button>
+                                <button class="button39">39</button>
+                                <button class="button40">40</button>
+                            </div>
+                            <h3>เลือกสี</h3>
+                            <div class="color">
+                                <button onClick="changeColorPink()" class="color1"></button>
+                                <button class="color2"></button>
+                                <button class="color3"></button>
+                                <button class="color4"></button>
+                                <button onClick="changeColorBlack()" class="color5"></button>
+                            </div>
+                        </div><!--box-1-->
+
+                        <div class="box-2">
+                            <div class="detail">
+                                <p>รายละเอียด</p>
+                            </div>
+                            <h1>รองเท้าแตะสุดชิคทำจากหนังแพะแท้ ส้นสูง 1.5 ซม. โดดเด่น <br>
+                                ด้วยโลโก้ O&B ลายที่เป็นเอกลักษณ์ ใช้เทคนิคเลเซอร์คัทใน <br>
+                                การดีไซน์ แนะนำใส่ในวันสบายช่วยคอมพลีทลุคแคชชวลของ <br>
+                                สาวๆ ให้หรูหรามีระดับ</h1>
+                        </div><!--box-2-->
+
+                        <div class="box-3">
+                            <div class="sizeDe">
+                                <p>ตารางเทียบไซส์</p>
+                            </div>
+                            <img src="images/size.jpg">
+                            <button class="add">เพิ่มลงในตะกร้า</button>
+                        </div>
+                    </div><!--right-->
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="back-foo">
+                <div class="box-foo">
+                    <div class="text-foo">
+                        <h1>Minik Shoes</h1>
+                        <h2>Copyright © Minik Shoes. All rights reserved.</h2>
+                    </div>
+
+                    <div class="pic-foo">
+                        <div class="picFoo-1">
+                            <img src="images/facebook.jpg">
+                        </div>
+                        <div class="picFoo-2">
+                            <img src="images/mail.jpg">
+                        </div>
+                        <div class="picFoo-3">
+                            <img src="images/twitter.jpg">
+                        </div>
+                        <div class="picFoo-4">
+                            <img src="images/ig.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function changeImage(imgSrc, imageSrc2) {
+          if (document.getElementById("imageDisplay").src.match(/[^\/]+$/)[0] == '14.jpg' ||
+          document.getElementById("imageDisplay").src.match(/[^\/]+$/)[0] == '15.jpg' ||
+          document.getElementById("imageDisplay").src.match(/[^\/]+$/)[0] == '16.jpg' ||
+          document.getElementById("imageDisplay").src.match(/[^\/]+$/)[0] == '17.jpg') {
+            document.getElementById("imageDisplay").src=imageSrc2;
+          } else {
+            document.getElementById("imageDisplay").src=imgSrc;
+          }
+        }
+
+        function changeColorBlack() {
+          document.getElementById("imageDisplay").src="images/14.jpg";
+          document.getElementById("imageRow1").src="images/16.jpg";
+          document.getElementById("imageRow2").src="images/15.jpg";
+          document.getElementById("imageRow3").src="images/17.jpg";
+        }
+
+        function changeColorPink() {
+          document.getElementById("imageDisplay").src="images/10.jpg";
+          document.getElementById("imageRow1").src="images/11.jpg";
+          document.getElementById("imageRow2").src="images/12.jpg";
+          document.getElementById("imageRow3").src="images/13.jpg";
+        }
+    </script>
+</body>
+</html>

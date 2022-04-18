@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+header{
+    width: 1280px;
+    height: 111px;
+    /* background-color: blue; */
+}
+.head{
+    width: 1280px;
+    height: 111px;
+    background-color: black;
+    float: left;
+    position: fixed;
+    z-index: 99;
+}
+.logo img{
+    width: 153px;
+    height: 69px;
+    float: left;
+    margin-left: 138px;
+    margin-top: 18px;
+}
+.menu{
+    float: right;
+    margin: 45px 138px 0 0;
+ 
+}
+.menu a{
+    color: white;
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: Noto Sans;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #D8D3CD;
+    text-decoration: underline;
+}
+.backAll{
+    width: 1280px;
+    height: 1081px;
+    float: left;
+    /* background-color: teal; */
+}
+.box{
+    width: 1004px;
+    height: 1005px;
+    margin: 76px 0 0 138px;
+    /* background-color: tomato; */
+}
+.box h1{
+    font-family: Noto sans;
+    font-size: 48px;
+    font-weight: bold;
+    color: #3D3D3D;
+    margin-bottom: 10px;
+
+}
+.box h2{
+    font-family: Kanit;
+    font-size: 16px;
+    font-weight: bold;
+    color: #8B8B8B;
+    margin-bottom: 15px;
+}
+.left{
+    width: 494px;
+    height: 903px;
+    float: left;
+    /* background-color: violet; */
+}
+.pic1 img{
+    width: 494px;
+    height: 421px;
+    float: left;
+    margin-bottom: 20px;
+}
+.row1{
+    width: 494px;
+    height: 99px;
+    float: left;
+    /* background-color: yellow; */
+}
+#imagerow1{
+    width: 153px;
+    height: 99px;
+    float: left;
+    margin-right: 16px;
+}
+#imagerow2{
+    width: 154px;
+    height: 99px;
+}
+#imagerow3{
+    width: 153px;
+    height: 99px;
+    float: right;
+}
+.right{
+    width: 510px;
+    height: 903px;
+    float: left;
+    /* background-color: yellowgreen; */
+}
+.name{
+    float: right;
+    width: 426px;
+    height: 63px;
+    font-family: Kanit;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ACA8A8;
+    padding-left: 10px;
+    border-width: 1px;
+    margin-bottom: 28px;
+}
+.number{
+    float: right;
+    width: 426px;
+    height: 62px;
+    font-family: Kanit;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ACA8A8;
+    padding-left: 10px;
+    border-width: 1px;
+    margin-bottom: 28px;
+}
+.address{
+    float: right;
+    width: 426px;
+    height: 63px;
+    font-family: Kanit;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ACA8A8;
+    padding-left: 10px;
+    border-width: 1px;
+    margin-bottom: 28px;
+}
+.detail{
+    float: right;
+    width: 426px;
+    height: 295px;
+    font-family: Kanit;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ACA8A8;
+    padding-left: 10px;
+    border-width: 1px;
+}
+.right p{
+    font-family: Kanit;
+    font-size: 14px;
+    float: right;
+    color: #ACA8A8;
+    margin-top: 10px;
+    margin-right: 90px;
+}
+.button1{
+    width: 424px;
+    height: 45px;
+    margin-top: 52px;
+    float: right;
+    background-color: hsl(0, 0%, 24%);
+    color: white;
+    border: none;
+    font-family: Kanit;
+    font-size: 15px;
+    font-weight: bold;
+}
+.button1:hover{
+    color: #3C3C3C;
+    background-color: #ACA8A8;
+}
+.back-foo{
+    width: 1280px;
+    height: 156px;
+    float: left;
+    background-color: black;
+}
+.box-foo{
+    width: 1004px;
+    height: 156px;
+    float: left;
+    /* background-color: violet; */
+    margin-left: 138px;
+}
+.text-foo{
+    width: 409px;
+    height: 156px;
+    float: left;
+    /* background-color: burlywood; */
+}
+.text-foo h1{
+    color: white;
+    font-family: Noto sans;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 55px 0 21px 10px;
+}
+.text-foo h2{
+    color: white;
+    font-family: Noto sans;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.pic-foo{
+    width: 255px;
+    height: 156px;
+    /* background-color: green; */
+    float: right;
+}
+.picFoo-1{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #737373;
+    float: left;
+    margin: 55px 0 0 10px;
+}
+.picFoo-1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 0 0 4px;
+}
+.picFoo-2{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #737373;
+    float: left;
+    margin: 55px 0 0 10px;
+}
+.picFoo-2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 0 0 4px;
+}
+.picFoo-3{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #737373;
+    float: left;
+    margin: 55px 0 0 10px;
+}
+.picFoo-3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 0 0 4px;
+}
+.picFoo-4{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #737373;
+    float: left;
+    margin: 55px 0 0 10px;
+}
+.picFoo-4 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 0 0 4px;
+}
