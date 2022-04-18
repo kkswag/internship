@@ -1,0 +1,27 @@
+.head {
+  padding: 20px 20px 0 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo {
+}
+.submenu {
+  display: flex;
+  width: 400px;
+}
+.submenu p {
+  flex-basis: 30%;
+}
+.menu {
+  display: none;
+}
+
+@media (max-width: 414px) {
+  .menu {
+    display: block;
+  }
+  .submenu {
+    display: none;
+  }
+}
