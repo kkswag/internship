@@ -1,0 +1,30 @@
+USER
+
+	Link : pinterest.text/login
+
+1.  User     : kkswag
+    E-mail   : kamg_kob@hotmail.com
+    Password : password
+
+2.  User     : kamg
+    E-mail   : kk@gmail.com
+    Password : password
+
+3.  User     : gail
+    E-mail   : gg@gmail.com
+    Password : password
+
+4.  User     : grace
+    E-mail   : rabbit@gmail.com
+    Password : password
+
+
+Admin
+
+	Link :pinterest.text/admin/login
+
+
+1.  User     : admin
+    Password : password
+
+
