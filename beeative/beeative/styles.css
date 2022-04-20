@@ -321,7 +321,14 @@ header {
     display: flex;
     align-items: center;
   }
-  .cropboxCreate {
+  .cropboxCreat,
+  .cropboxBranding,
+  .cropboxCommu,
+  .portRow1,
+  .portRow2,
+  .portRow3,
+  .portRow4,
+  .cropboxContact {
     display: block;
     width: 100%;
   }
