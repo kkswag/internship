@@ -1,12 +1,6 @@
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-} */
 body {
   margin: 0;
 }
-
 header {
   width: 1440px;
   height: 90px;
@@ -25,37 +19,14 @@ header {
   margin: 0 auto;
   align-items: center;
 }
-/* .nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.logo img {
-  display: flex;
-  width: 160px;
-  height: 49px;
-  float: left;
-  margin: 20px 0 0 150px;
-}
-.menu {
-  display: flex;
-  float: right;
-  padding: 20px 0 0 0;
-  padding-top: 40px;
-}
-.menu a {
-  padding: 15px;
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: lighter;
-  font-family: Roboto;
-} */
 .nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.logo {
+  flex-basis: 20%;
 }
 .logo img {
   width: 180px;
@@ -63,13 +34,15 @@ header {
 }
 .menu {
   display: flex;
+  flex-basis: 80%;
+  padding-left: 20%;
 }
 .menu a {
   color: white;
   text-decoration: none;
   font-size: 16px;
   font-family: Roboto;
-  flex-basis: 20%;
+  flex-basis: 15%;
 }
 #tel {
   color: #f7c244;
@@ -77,65 +50,219 @@ header {
 .menu a:hover {
   color: #f7c244;
 }
-.create {
+#wrap {
+  width: 900px;
+  margin: 0 auto;
+  align-items: center;
+}
+.mainBanner {
   background: url(../beeative/img/bg-beeative.png);
   width: 100%;
   height: 635px;
-  /* padding: 0 250px 0 250px; */
+  display: flex;
+  align-items: center;
 }
-.text {
-  float: left;
-  padding-top: 160px;
-}
-.text h1 {
+.contentCreate h1 {
   font-size: 50px;
   font-family: Roboto;
 }
-.text p {
+.contentCreate p {
   font-family: kanit;
   font-size: 16px;
-  padding-top: 40px;
 }
-.img1 img {
+.cropboxCreate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainImg img {
   width: 490px;
-  height: 500px;
-  float: right;
-  padding-top: 100px;
+  height: auto;
 }
-.branding {
-  padding: 0 150px 0 150px;
-  height: 480px;
+.bannerBranding {
+  height: 650px;
+  display: flex;
+  align-items: center;
 }
-.text2 {
-  float: left;
-  padding-top: 100px;
-  padding-bottom: 30px;
+.cropboxBranding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.text2 h1 {
-  font-family: kanit;
+.contentBranding h1 {
+  font-family: Kanit;
   font-size: 40px;
 }
-.text2 h2 {
+.contentBranding h2 {
   font-family: Kanit;
-  font-size: 25px;
-  padding-top: 20px;
+  font-size: 22px;
 }
-.text2 p {
-  font-family: Kanit;
-  font-size: 18px;
-  padding-top: 30px;
-}
-.text2 h3 {
+.contentBranding p {
   font-family: Kanit;
   font-size: 16px;
+  padding-top: 20px;
+}
+.contentBranding h3 {
+  font-family: Kanit;
+  font-size: 14px;
   color: #525252;
-  font-weight: lighter;
 }
-.img2 {
-  padding-top: 100px;
+.brandingImg img {
+  width: 560px;
+  height: auto;
 }
-.img2 img {
+.bannerCommu {
+  height: 650px;
+  display: flex;
+  align-items: center;
+}
+.cropboxCommu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.commuImg img {
   width: 565px;
-  height: 400px;
-  float: right;
+  height: auto;
+}
+.contentCommu h1 {
+  font-family: Kanit;
+  font-size: 40px;
+}
+.contentCommu h2 {
+  font-family: Kanit;
+  font-size: 22px;
+}
+.contentCommu p {
+  font-family: Kanit;
+  font-size: 16px;
+  padding-top: 20px;
+}
+.contentCommu h3 {
+  font-family: Kanit;
+  font-size: 14px;
+  color: #525252;
+}
+.cropSlash {
+  display: flex;
+  justify-content: space-between;
+}
+.bannerPort {
+  background-color: #151415;
+  height: 1400px;
+  display: flex;
+}
+.titlePort h1 {
+  color: #f8ca47;
+  font-family: Kanit;
+  font-size: 70px;
+  margin-bottom: -30px;
+}
+.titlePort p {
+  font-family: kanit;
+  font-size: 20px;
+  color: white;
+}
+.portRow1,
+.portRow2,
+.portRow3,
+.portRow4 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.portRow1 img,
+.portRow2 img,
+.portRow3 img,
+.portRow4 img {
+  width: 360px;
+  height: auto;
+}
+.portCol1,
+.portCol2,
+.portCol3 {
+  position: relative;
+  display: flex;
+}
+.portContent1,
+.portContent2,
+.portContent3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: black;
+  background-color: #f8ca47;
+  width: 360px;
+  height: 240px;
+  font-size: 20px;
+  font-family: Kanit;
+  opacity: 0%;
+}
+.portContent1:hover,
+.portContent2:hover,
+.portContent3:hover {
+  opacity: 90%;
+  transition: 0.5s;
+}
+.viewmoreContentPort a {
+  color: white;
+  font-family: Kanit;
+  font-size: 22px;
+}
+.rightFix {
+  position: fixed;
+  bottom: 0%;
+  right: 0;
+  display: block;
+}
+.circletop {
+  width: 140px;
+  height: auto;
+}
+.circletop img {
+  width: 140px;
+  height: auto;
+}
+.circleBottom img {
+  width: 160px;
+  height: auto;
+}
+.bannerContact {
+  height: 650px;
+  display: flex;
+  align-items: center;
+  background-color: #151415;
+}
+.cropboxContact {
+  display: flex;
+  justify-content: space-between;
+}
+.contentContact h1 {
+  color: #f8ca47;
+  font-family: Kanit;
+  font-size: 70px;
+  line-height: 80px;
+}
+.contentContact h1 span,
+.contentContact h2 span {
+  color: white;
+}
+.contentContact h2 {
+  color: #f8ca47;
+  font-family: Roboto;
+  font-size: 22px;
+  margin-top: -35px;
+  margin-bottom: 40px;
+}
+.contentContact p i,
+.contentContact p {
+  color: white;
+}
+.contentContact p span {
+  margin-left: 15px;
+}
+.contactImg img {
+  width: 575px;
+  height: auto;
 }
