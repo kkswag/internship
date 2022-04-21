@@ -289,7 +289,7 @@ header {
     width: 100%;
   }
   #wrapper {
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
     align-items: center;
   }
@@ -320,6 +320,10 @@ header {
     height: 1150px;
     display: flex;
     align-items: center;
+    justify-content: center;
+  }
+  .mainImg img {
+    width: 350px;
   }
   .cropboxCreate {
     display: block;
@@ -344,11 +348,15 @@ header {
   }
   .bannerPort {
     display: block;
+    height: auto;
   }
   .portRow1,
   .portRow2,
   .portRow3,
   .portRow4 {
+    display: block;
+  }
+  .cropboxContact {
     display: block;
   }
 }
