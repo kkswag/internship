@@ -75,7 +75,7 @@ header {
 .mainBanner {
   background: url(../beeative/img/bg-beeative.png);
   width: 100%;
-  height: 635px;
+  height: 750px;
   display: flex;
   align-items: center;
 }
@@ -317,20 +317,39 @@ header {
   }
   .mainBanner {
     width: 100%;
-    height: 1000px;
+    height: 1150px;
     display: flex;
     align-items: center;
   }
-  .cropboxCreat,
-  .cropboxBranding,
-  .cropboxCommu,
+  .cropboxCreate {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .bannerBranding {
+    height: 1030px;
+  }
+  .cropboxBranding {
+    display: block;
+  }
+  .bannerCommu {
+    height: 1130px;
+  }
+  .cropboxCommu {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .cropSlash {
+    display: block;
+  }
+  .bannerPort {
+    display: block;
+  }
   .portRow1,
   .portRow2,
   .portRow3,
-  .portRow4,
-  .cropboxContact {
+  .portRow4 {
     display: block;
-    width: 100%;
   }
 }
 @media (min-width: 1199.98px) and (max-width: 1399.98px) {
