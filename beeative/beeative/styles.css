@@ -289,7 +289,12 @@ header {
     width: 100%;
   }
   #wrapper {
-    width: 340px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  #wrap {
+    width: 90%;
     margin: 0 auto;
     align-items: center;
   }
@@ -317,13 +322,13 @@ header {
   }
   .mainBanner {
     width: 100%;
-    height: 1150px;
+    height: 895px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .mainImg img {
-    width: 350px;
+    width: 100%;
   }
   .cropboxCreate {
     display: block;
@@ -334,7 +339,7 @@ header {
     height: 1030px;
   }
   .brandingImg img {
-    width: 400px;
+    width: 100%;
     height: auto;
   }
   .cropboxBranding {
@@ -348,13 +353,17 @@ header {
     flex-direction: column-reverse;
   }
   .commuImg img {
-    width: 410px;
+    width: 100%;
     height: auto;
   }
   .cropSlash {
     display: block;
   }
+  #portfolio {
+    width: 100%;
+  }
   .bannerPort {
+    width: 100%;
     display: block;
     height: auto;
   }
@@ -364,11 +373,20 @@ header {
   .portRow4 {
     display: block;
   }
+  .portRow1 img,
+  .portRow2 img,
+  .portRow3 img,
+  .portRow4 img {
+    width: 100%;
+  }
+  .portCol1 {
+    width: 100%;
+  }
   .cropboxContact {
     display: block;
   }
   .contactImg img {
-    width: 390px;
+    width: 100%;
   }
 }
 @media (min-width: 1199.98px) and (max-width: 1399.98px) {
