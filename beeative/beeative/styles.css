@@ -335,8 +335,11 @@ header {
     justify-content: center;
     align-items: center;
   }
+  .contentCreate {
+    text-align: center;
+  }
   .bannerBranding {
-    height: 1030px;
+    height: 990px;
   }
   .brandingImg img {
     width: 100%;
@@ -344,6 +347,9 @@ header {
   }
   .cropboxBranding {
     display: block;
+  }
+  .beeslash {
+    text-align: center;
   }
   .bannerCommu {
     height: 1130px;
