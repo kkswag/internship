@@ -246,7 +246,7 @@ header {
   height: auto;
 }
 .bannerContact {
-  height: 650px;
+  height: 100%;
   display: flex;
   align-items: center;
   background-color: #151415;
@@ -382,11 +382,25 @@ header {
   .portCol1 {
     width: 100%;
   }
+  .portContent1,
+  .portContent2,
+  .portContent3,
+  .portContent4 {
+    width: 100%;
+  }
   .cropboxContact {
     display: block;
   }
   .contactImg img {
     width: 100%;
+  }
+  .circletop img {
+    width: 120px;
+    height: auto;
+  }
+  .circleBottom img {
+    width: 140px;
+    height: auto;
   }
 }
 @media (min-width: 1199.98px) and (max-width: 1399.98px) {
