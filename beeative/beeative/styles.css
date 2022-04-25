@@ -409,7 +409,7 @@ header {
     height: auto;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1198px) {
   #wrapper {
     width: 780px;
     margin: 0 auto;
@@ -446,8 +446,6 @@ header {
     align-items: center;
   }
   .cropboxCommu {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-direction: column-reverse;
     text-align: center;
