@@ -313,9 +313,9 @@ header {
     flex-basis: 100%;
   }
   .menu a {
-    font-size: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .menu:last-child {
     color: white !important;
