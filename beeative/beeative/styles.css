@@ -284,6 +284,8 @@ header {
   height: auto;
 }
 
+/* MOBILE DEVICES */
+
 @media (min-width: 360px) and (max-width: 767.98px) {
   .head {
     width: 100%;
@@ -409,6 +411,9 @@ header {
     height: auto;
   }
 }
+
+/* TABLET DEVICES */
+/* maxwidth 1144 */
 @media (min-width: 768px) and (max-width: 1198px) {
   #wrapper {
     width: 780px;
