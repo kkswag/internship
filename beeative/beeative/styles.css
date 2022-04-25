@@ -410,6 +410,88 @@ header {
   }
 }
 @media (min-width: 768px) {
+  #wrapper {
+    width: 780px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  #wrap {
+    width: 650px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .menu {
+    display: flex;
+    width: 500px;
+    flex-basis: 70%;
+    /* padding-left: 20%; */
+  }
+  .mainImg img {
+    width: 355px;
+    height: auto;
+  }
+  .bannerBranding {
+    height: 970px;
+    display: flex;
+    align-items: center;
+  }
+  .cropboxBranding {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .bannerCommu {
+    height: 945px;
+    display: flex;
+    align-items: center;
+  }
+  .cropboxCommu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .cropSlash {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .bannerPort {
+    background-color: #151415;
+    height: 100%;
+    display: flex;
+  }
+  .portRow1 img,
+  .portRow2 img,
+  .portRow3 img,
+  .portRow4 img {
+    width: 255px;
+    height: auto;
+  }
+  .portContent1,
+  .portContent2,
+  .portContent3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: black;
+    background-color: #f8ca47;
+    width: 255px;
+    height: 168px;
+    font-size: 20px;
+    font-family: Kanit;
+    opacity: 0%;
+  }
+  .cropboxContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contactImg img {
+    width: 425px;
+    height: auto;
+  }
 }
 @media (min-width: 1199.98px) and (max-width: 1399.98px) {
 }
