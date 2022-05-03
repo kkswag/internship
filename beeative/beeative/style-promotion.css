@@ -280,9 +280,9 @@ header {
   .menu:last-child {
     color: white !important;
   }
-  .cropPromo1,
+  /* .cropPromo1,
   .cropPromo2 {
-    flex-direction: column;
+    display: block;
   }
   .promoImg img {
     width: 100%;
@@ -297,11 +297,34 @@ header {
     height: 290px;
   }
   .descripProTop {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+    text-align: center;
   }
   .descripProTop h1 {
     font-size: 24px;
+  }
+  .descripProTop p {
+    font-size: 15px;
+  } */
+
+  .cropPromo1,
+  .cropPromo2 {
+    display: block;
+  }
+  .promoImg img {
+    width: 100%;
+  }
+  .selectImg img {
+    display: none;
+  }
+  .infoFirst,
+  .infoSecond {
+    display: block;
+  }
+  .infoFirst input,
+  .infoSecond input,
+  .infothree select,
+  .infoFour input {
+    width: 400px;
   }
 }
