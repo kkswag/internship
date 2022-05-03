@@ -296,4 +296,12 @@ header {
   .vdoPromotion video {
     height: 290px;
   }
+  .descripProTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .descripProTop h1 {
+    font-size: 24px;
+  }
 }
