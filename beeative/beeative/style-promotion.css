@@ -165,7 +165,7 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 615px;
+  height: 100%;
 }
 .selectPack {
   display: flex;
@@ -214,7 +214,7 @@ header {
 .infothree,
 .infoFour {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   padding-bottom: 20px;
 }
 .infothree select {
@@ -330,5 +330,20 @@ header {
   }
   .selectPack {
     height: 667px;
+  }
+  .contentSelect {
+    text-align: center;
+  }
+  .inputName,
+  .inputFullname {
+    padding-bottom: 15px;
+  }
+  .circletop img {
+    width: 120px;
+    height: auto;
+  }
+  .circleBottom img {
+    width: 140px;
+    height: auto;
   }
 }
