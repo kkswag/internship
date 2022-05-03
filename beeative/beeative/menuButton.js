@@ -17,10 +17,18 @@ $(".hamberger button").click(function () {
   console.log("click");
 });
 
-$(".btn1").click(function () {
-  $("#select").val("1");
-});
+// $(".btn1").click(function () {
+//   $("#select").val("1");
+// });
 
-$(".btn2").click(function () {
-  $("#select").val("2");
+// $(".btn2").click(function () {
+//   $("#select").val("2");
+// });
+
+$("button").click(function () {
+  if ($(this).hasClass("btn1")) {
+    $("#select").val("1");
+  } else if ($(this).hasClass("btn2")) {
+    $("#select").val("2");
+  }
 });

@@ -175,9 +175,12 @@ header {
 .contentSelect {
   color: white;
   font-family: Kanit;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .contentSelect h1 {
-  font-size: 35px;
+  font-size: 23px;
   line-height: 10px;
 }
 .contentSelect p {
@@ -242,4 +245,55 @@ header {
 .infoSubmit button:hover {
   color: white;
   transition: 0.5s;
+}
+
+/* MOBILE DEVICE */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .head {
+    width: 100%;
+  }
+  #wrapper {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .logo img {
+    width: 190px;
+    height: auto;
+  }
+  .hamberger button {
+    display: block;
+  }
+  .hamberger button i {
+    font-size: 30px;
+  }
+  .menu {
+    display: none;
+    flex-basis: 100%;
+  }
+  .menu a {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .menu:last-child {
+    color: white !important;
+  }
+  .cropPromo1,
+  .cropPromo2 {
+    flex-direction: column;
+  }
+  .promoImg img {
+    width: 100%;
+  }
+  .selectImg img {
+    display: none;
+  }
+  .inputName {
+    flex-basis: 100%;
+  }
+  .vdoPromotion video {
+    height: 290px;
+  }
 }
