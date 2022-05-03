@@ -261,12 +261,12 @@ header {
     align-items: center;
   }
   #wrap {
-    width: 358px;
+    width: 100%;
     margin: 0 auto;
     align-items: center;
   }
   .logo img {
-    width: 190px;
+    width: 155px;
     height: auto;
   }
   .hamberger button {
@@ -299,7 +299,8 @@ header {
     display: block;
   }
   .promoImg img {
-    width: 414px;
+    /* width: 414px; */
+    width: 100%;
   }
   .selectImg img {
     display: none;
