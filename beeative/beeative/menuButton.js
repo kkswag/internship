@@ -9,10 +9,18 @@
 //   console.log("click");
 // });
 
-$("button").click(function () {
+$(".hamberger button").click(function () {
   var val = $(".menu").css("display");
 
   $(".menu").toggleClass("showMenu");
 
   console.log("click");
+});
+
+$(".btn1").click(function () {
+  $("#select").val("1");
+});
+
+$(".btn2").click(function () {
+  $("#select").val("2");
 });
