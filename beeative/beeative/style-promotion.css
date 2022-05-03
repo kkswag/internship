@@ -160,3 +160,38 @@ header {
 .spaceSet2 {
   height: 10px;
 }
+.backgroundSelect {
+  background: url(../beeative//img/bg-beeative2.jpeg);
+  background-position: center center;
+  width: 100%;
+  height: 615px;
+}
+.selectPack {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+.contentSelect {
+  color: white;
+  font-family: Kanit;
+}
+.contentSelect h1 {
+  font-size: 35px;
+  line-height: 10px;
+}
+.contentSelect p {
+  font-size: 18px;
+}
+.contentSelect span {
+  color: #f8ca47;
+}
+.inputInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.infoFirst {
+  flex-basis: 100%;
+}
+.infoFirst button {
+  flex-basis: 50%;
+}
