@@ -164,6 +164,7 @@ header {
   background: url(../beeative//img/bg-beeative2.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
 }
@@ -329,10 +330,20 @@ header {
     font-size: 16px;
   }
   .selectPack {
-    height: 775px;
+    height: 796px;
   }
   .contentSelect {
     text-align: center;
+  }
+  .contentSelect h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .contentSelect p {
+    font-size: 20px;
+  }
+  .infoSubmit {
+    padding-bottom: 20px;
   }
   .inputName,
   .inputFullname {
