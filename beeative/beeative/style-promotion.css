@@ -299,7 +299,6 @@ header {
     display: block;
   }
   .promoImg img {
-    /* width: 414px; */
     width: 100%;
   }
   .selectImg img {
@@ -360,6 +359,6 @@ header {
   }
   .promoBt button {
     width: 136px;
-    margin-right: 50px;
+    margin-right: 30px;
   }
 }
