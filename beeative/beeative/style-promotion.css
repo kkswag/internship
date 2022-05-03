@@ -75,3 +75,88 @@ header {
   display: block;
   width: 100%;
 }
+.rightFix {
+  position: fixed;
+  bottom: 0%;
+  right: 0;
+  display: block;
+}
+.circletop {
+  width: 140px;
+  height: auto;
+}
+.circletop img {
+  width: 140px;
+  height: auto;
+}
+.circleBottom img {
+  width: 160px;
+  height: auto;
+}
+.promoSet1,
+.promoSet2 {
+  display: flex;
+  justify-content: space-between;
+  height: 800px;
+  /* align-items: center; */
+}
+.cropPromo1,
+.cropPromo2 {
+  display: flex;
+  align-items: center;
+}
+.contentPromo {
+  font-family: Kanit;
+  padding-left: 30px;
+}
+.descripProTop h1 {
+  font-size: 28px;
+  line-height: 10px;
+}
+.line {
+  height: 1px;
+  background-color: black;
+}
+.rate {
+  color: #f8ca47;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.descripProTop p {
+  color: #717171;
+  font-size: 18px;
+}
+.spaceSet1 {
+  height: 50px;
+}
+.descripProBottom h1 {
+  font-size: 26px;
+}
+.descripProBottom p {
+  color: #717171;
+  font-size: 16px;
+}
+.descripProBottom h2 {
+  font-size: 38px;
+}
+.promoBt {
+  display: flex;
+  justify-content: start;
+}
+.promoBt button {
+  background-color: white;
+  font-family: Kanit;
+  font-size: 20px;
+  width: 180px;
+  height: 60px;
+  border-radius: 4px;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+.promoBt button:hover {
+  background-color: black;
+  color: white;
+}
+.spaceSet2 {
+  height: 10px;
+}
