@@ -357,4 +357,8 @@ header {
     width: 140px;
     height: auto;
   }
+  .promoBt button {
+    width: 136px;
+    margin-right: 50px;
+  }
 }
