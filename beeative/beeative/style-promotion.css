@@ -362,3 +362,76 @@ header {
     margin-right: 30px;
   }
 }
+
+/* TABLET DEVICE */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #wrapper {
+    width: 767px;
+  }
+  .logo img {
+    width: 190px;
+    height: auto;
+  }
+  .hamberger button {
+    display: block;
+  }
+  .hamberger button i {
+    font-size: 30px;
+  }
+  .menu {
+    display: none;
+    flex-basis: 100%;
+  }
+  .menu a {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .menu:last-child {
+    color: white !important;
+  }
+  .vdoPromotion video {
+    height: 450px;
+  }
+  .promoSet1,
+  .promoSet2 {
+    height: 1160px;
+  }
+  .cropPromo1,
+  .cropPromo2 {
+    flex-direction: column;
+  }
+  .descripProTop {
+    text-align: center;
+  }
+  .contentSelect h1 {
+    font-size: 38px;
+  }
+  .selectImg img {
+    display: none;
+  }
+  .selectPack {
+    height: 698px;
+  }
+  .inputInfo {
+    width: 767px;
+  }
+  .infoFirst,
+  .infoSecond,
+  .infothree,
+  .infoFour {
+    flex-direction: column;
+    text-align: center;
+  }
+  .infoFirst input,
+  .infoSecond input,
+  .infothree select,
+  .infoFour input {
+    width: 734px;
+  }
+  .inputName,
+  .inputFullname {
+    padding-bottom: 20px;
+  }
+}
