@@ -21,17 +21,28 @@ header {
 }
 .nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 .logo {
   flex-basis: 20%;
 }
 .logo img {
-  width: 200px;
+  width: 180px;
+  height: auto;
 }
 .menu {
-  flex-basis: 70%;
-  /* width: 500px; */
+  width: 500px;
+  flex-basis: 80%;
+}
+.menuTop a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-family: Kanit;
+  flex-basis: 15%;
+}
+.menuBottom {
+  display: flex;
 }
