@@ -14,7 +14,7 @@ header {
   z-index: 99;
 }
 #wrapper {
-  width: 1100px;
+  width: 1250px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -41,30 +41,37 @@ header {
 .menuTop {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 .menuTop a {
-  font-size: 16px;
+  font-size: 15px;
   color: white;
   text-decoration: none;
   font-family: Kanit;
-  flex-basis: 10%;
+  flex-basis: 13%;
+}
+.menuTop a:nth-child(8),
+.menuTop a:nth-child(7) {
+  flex-basis: 2%;
 }
 .menuBottom {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .menuBottom input {
+  width: 550px;
   height: 20px;
   border: none;
   border-radius: 20px 0 0 20px;
 }
-.menuBottom button {
+.boxinput button {
   height: 20px;
   background-color: #ef8139;
   border: none;
   border-radius: 0 20px 20px 0;
 }
-.menuBottom button i {
+.boxinput button i {
   color: white;
   font-size: 16px;
 }
