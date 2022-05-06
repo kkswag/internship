@@ -33,16 +33,38 @@ header {
   height: auto;
 }
 .menu {
+  display: flex;
+  flex-direction: column;
   width: 500px;
   flex-basis: 80%;
+}
+.menuTop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .menuTop a {
   font-size: 16px;
   color: white;
   text-decoration: none;
   font-family: Kanit;
-  flex-basis: 15%;
+  flex-basis: 10%;
 }
 .menuBottom {
   display: flex;
+}
+.menuBottom input {
+  height: 20px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+}
+.menuBottom button {
+  height: 20px;
+  background-color: #ef8139;
+  border: none;
+  border-radius: 0 20px 20px 0;
+}
+.menuBottom button i {
+  color: white;
+  font-size: 16px;
 }
