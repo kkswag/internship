@@ -14,10 +14,13 @@ header {
   z-index: 99;
 }
 #wrapper {
-  width: 1050px;
+  width: 1070px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+}
+#wrap {
+  width: 1100px;
 }
 .nav {
   display: flex;
@@ -121,10 +124,10 @@ header {
   display: flex;
   height: 750px;
 }
-.cropContent {
+.cropboxContent {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .contentRegister {
@@ -132,4 +135,156 @@ header {
 }
 .contentRegister h1 {
   font-size: 50px;
+}
+.contentRegister p {
+  font-size: 16px;
+}
+.contentRegister button {
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #5accfa;
+  width: 200px;
+  height: 40px;
+}
+.contentLogin {
+  font-family: kanit;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 380px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.contentLogin h1 {
+  font-size: 18px;
+}
+.contentLogin input {
+  border: 1px solid #5accfa;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 40px;
+}
+.contentLogin input::placeholder {
+  padding-left: 10px;
+  color: #5accfa;
+  font-family: kanit;
+  font-size: 14px;
+}
+.space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.space p {
+  padding: 0 20px 0 20px;
+  font-size: 16px;
+}
+.lineOr1,
+.lineOr2 {
+  width: 90px;
+  height: 16px;
+  border-top: 1px solid #7a7979;
+}
+.contentSocial {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+.contentSocial button:first-child {
+  background-color: #4370b6;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 30px;
+  font-size: 14px;
+}
+.contentSocial button:last-child {
+  background-color: #f2f2f2;
+  color: black;
+  border: none;
+  width: 120px;
+  height: 30px;
+  font-size: 14px;
+}
+.contentLogin > button:last-child {
+  background-color: #ef8139;
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+}
+.contentHowto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 770px;
+}
+.cropHowto {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.howtoTop,
+.howtoBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.cropHowto h1 {
+  font-family: kanit;
+  font-size: 22px;
+  padding-bottom: 40px;
+}
+.contentHowtoImg {
+  width: 100%;
+}
+.firstImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descripHowto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.descripHowto p {
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: 20%;
+  text-align: center;
+  font-family: kanit;
+  font-size: 14px;
+}
+.descripHowto p a {
+  color: #5accfa;
+}
+.howtoNote {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-size: 14px;
+}
+.howtoAlert {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #ef8139;
+  margin-right: 10px;
+}
+.note p {
+}
+.note p span {
+  color: #ef8139;
 }
