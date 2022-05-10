@@ -295,6 +295,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 }
 .cropboxService h1 {
   font-size: 22px;
@@ -303,16 +304,102 @@ header {
 .boxContentService {
   display: flex;
   margin-top: 40px;
+  width: 100%;
+  justify-content: space-between;
 }
 .boxInfoBuy {
   background-color: #92dbfb;
-  height: 376px;
+  width: 260px;
+  height: 450px;
   border-radius: 20px;
+  position: relative;
+  box-shadow: 0 0 8px 5px #efefef;
 }
-.infoBuy {
+.infoBuy,
+.infoImport {
   background-color: white;
+  width: 260px;
+  height: 420px;
+  border-radius: 0 0 20px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 34px;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  font-family: kanit;
+  padding: 20px 20px;
+}
+.infoSent,
+.infoPack {
+  background-color: white;
+  width: 260px;
+  height: 420px;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  font-family: kanit;
+  padding: 20px 20px;
+}
+.infoBuy h1,
+.infoImport h1,
+.infoSent h1,
+.infoPack h1 {
+  color: #66c9f4;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.infoBuy button,
+.infoImport button,
+.infoSent button,
+.infoPack button {
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ef8139;
+  color: white;
+}
+.infoPack img {
+  width: 110px;
+}
+.boxInfoImport {
+  background-color: #6ec1e7;
+  width: 260px;
+  height: 450px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 0 8px 5px #efefef;
+}
+.boxInfoSent {
+  background-color: #3e8eb8;
+  width: 260px;
+  height: 450px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 0 8px 5px #efefef;
+}
+.boxInfoPack {
+  background-color: #377fb0;
+  width: 260px;
+  height: 450px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 0 8px 5px #efefef;
+}
+.why {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cropboxContentWhy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
