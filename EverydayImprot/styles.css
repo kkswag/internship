@@ -21,6 +21,8 @@ header {
 }
 #wrap {
   width: 1100px;
+  display: flex;
+  justify-content: center;
 }
 .nav {
   display: flex;
@@ -258,7 +260,7 @@ header {
 .descripHowto {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
 }
 .descripHowto p {
@@ -289,8 +291,6 @@ header {
 }
 .note p span {
   color: #ef8139;
-}
-.service {
 }
 .cropboxService {
   display: flex;
@@ -461,4 +461,130 @@ header {
 }
 .cropboxConcept p:first-child {
   color: #4fb6f9;
+}
+.shipping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 470px;
+}
+.cropboxContentShipping {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.cropboxContentShipping a {
+  text-decoration: none;
+  color: black;
+  font-family: kanit;
+  font-size: 12px;
+  font-weight: lighter;
+  padding-bottom: 10px;
+}
+.contentShipping {
+  display: flex;
+}
+.boxByBoat,
+.boxByTruck,
+.boxByContainer {
+  width: 280px;
+}
+.boxByBoat img,
+.boxByTruck img,
+.boxByContainer img {
+  width: 250px;
+}
+.boxByBoat h1,
+.boxByTruck h1,
+.boxByContainer h1 {
+  font-family: kanit;
+  font-size: 18px;
+  color: #4fb6f9;
+  font-weight: bolder;
+}
+.boxByBoat p,
+.boxByTruck p,
+.boxByContainer p {
+  font-family: kanit;
+  font-size: 13px;
+  width: 230px;
+  color: #7a7979;
+}
+.logoPartner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+.cropboxContact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cropboxContact h1 {
+  font-family: kanit;
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.boxcontentContact {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+}
+.qrcode img {
+  width: 200px;
+}
+.socialContent {
+  width: 400px;
+}
+.socialContact p i {
+  color: #66c9f4;
+  font-size: 40px;
+}
+.socialContact p {
+  font-family: kanit;
+}
+.socialContact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.newsinfo p {
+  font-family: kanit;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.infoemail input {
+  border: none;
+  border-radius: 20px 0 0 20px;
+  background-color: #f4f4f4;
+  width: 300px;
+  height: 30px;
+}
+.infoemail input::placeholder {
+  font-family: kanit;
+  font-size: 12px;
+  font-weight: lighter;
+  padding-left: 20px;
+}
+.infoemail button {
+  border: none;
+  border-radius: 0 20px 20px 0;
+  width: 70px;
+  height: 30px;
+  background-color: #ef8139;
+  color: white;
+  font-family: kanit;
+  font-size: 12px;
+  margin-left: -4px;
 }
