@@ -455,4 +455,10 @@ header {
   position: absolute;
   top: 25%;
   left: 30%;
+  font-family: kanit;
+  font-size: 16px;
+  font-weight: bold;
+}
+.cropboxConcept p:first-child {
+  color: #4fb6f9;
 }
