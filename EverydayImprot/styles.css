@@ -615,7 +615,9 @@ header {
   font-family: kanit;
   font-size: 14px;
   color: white;
+  width: 65%;
 }
+
 .timeOpen {
   line-height: 7px;
   margin-top: 35px;
