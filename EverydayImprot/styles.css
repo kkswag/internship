@@ -520,7 +520,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 400px;
 }
 .cropboxContact {
   width: 100%;
@@ -587,4 +587,72 @@ header {
   font-family: kanit;
   font-size: 12px;
   margin-left: -4px;
+}
+.about {
+  background-color: #3988c8;
+  width: 100%;
+}
+.cropCopy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+}
+.cropboxAboutUs {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.infoCompany img {
+  width: 160px;
+}
+.infoCompany h1,
+.infoCompany p {
+  font-family: kanit;
+  font-size: 14px;
+  color: white;
+}
+.timeOpen {
+  line-height: 7px;
+  margin-top: 35px;
+}
+.infoAboutUs {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+}
+.question p {
+  color: white;
+  font-family: kanit;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.question a {
+  text-decoration: none;
+  color: white;
+  font-family: kanit;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.followUs p {
+  color: white;
+}
+.followUs a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.cropCopy > p {
+  color: white;
+  font-size: 10px;
+  padding-top: 30px;
 }
