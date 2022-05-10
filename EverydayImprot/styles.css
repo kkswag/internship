@@ -126,6 +126,15 @@ header {
   display: flex;
   height: 750px;
 }
+.carouselExampleIndicators {
+  position: relative;
+}
+.registerAndLogin {
+  top: 30%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
 .cropboxContent {
   display: flex;
   width: 100%;
