@@ -116,8 +116,11 @@ header {
 .dropdownLanguage {
   display: none;
   width: 200px;
-  height: 200px;
+  height: 100px;
   background-color: #ef8139;
+}
+.dropdownLanguage.showLanguage {
+  display: block;
 }
 .carousel-item img {
   width: 100%;
