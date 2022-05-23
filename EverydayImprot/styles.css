@@ -118,6 +118,7 @@ header {
   width: 100px;
   height: 100px;
   background-color: white;
+  align-self: flex-end;
 }
 .dropdownLanguage button {
   border: none;
@@ -697,4 +698,242 @@ header {
   position: fixed;
   right: 20px;
   bottom: 20px;
+}
+.calContent {
+  width: 500px;
+  height: 722px;
+  box-shadow: 0 0 5px 2px #cecece;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  background-color: white;
+}
+.showCalculate {
+  display: flex;
+}
+.cropcalculate {
+  width: 450px;
+  height: 722px;
+  position: absolute;
+}
+.headCal {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  align-items: baseline;
+}
+.headCal h1 {
+  font-size: 20px;
+  font-family: kanit;
+  font-weight: bolder;
+  flex-basis: 70%;
+}
+.headCal button {
+  border: none;
+  background-color: white;
+  color: #3683c6;
+  font-size: 25px;
+  flex-basis: 10%;
+}
+.calRow1,
+.cropCate,
+.calRow3 {
+  background-color: white;
+  color: #3683c6;
+  font-family: kanit;
+  box-shadow: 0 0 5px 2px #cecece;
+  border: none;
+  font-size: 14px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.descripCal {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  font-weight: bolder;
+}
+.descripCal p {
+  text-align: center;
+  flex-basis: 35%;
+}
+.boxCal {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.boxCal input {
+  width: 100px;
+  border: none;
+  background-color: #ededed;
+  border-radius: 20px;
+}
+.headRow2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 15px;
+}
+.headRow2 h2 {
+  font-size: 14px;
+  font-family: kanit;
+  flex-basis: 70%;
+  text-align: center;
+}
+.cateRow1,
+.cateRow2,
+.cateRow3 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0 20px 3px 20px;
+  color: black;
+  align-items: center;
+}
+.cateRow1 h1,
+.cateRow2 h1,
+.cateRow3 h1 {
+  flex-basis: 35%;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.form-check {
+  flex-basis: 30%;
+}
+.cateRow3 p {
+  font-size: 12px;
+  color: #5e5e5e;
+}
+.boxZipcode {
+  flex-basis: 30%;
+}
+.boxZipcode input {
+  border: none;
+  border-radius: 20px;
+  background-color: #ededed;
+  width: 100px;
+  height: 30px;
+}
+#type {
+  border: none;
+  border-radius: 20px;
+  background-color: #ededed;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  color: #505050;
+  font-size: 12px;
+}
+.boxSize {
+  display: flex;
+  color: black;
+  font-weight: bolder;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 0 20px 10px 20px;
+}
+.boxSize input {
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: #ededed;
+  border-radius: 20px;
+}
+.boxSize input::placeholder,
+.boxweightLeft input::placeholder {
+  padding-right: 5px;
+  text-align: end;
+  color: black;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.boxSize p {
+  flex-basis: 12%;
+}
+.boxWeight {
+  display: flex;
+}
+.boxweightLeft {
+  padding: 0 20px 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  font-weight: bolder;
+  flex-basis: 80%;
+}
+.boxweightLeft p {
+  flex-basis: 50%;
+}
+.boxweightLeft input {
+  width: 134px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ededed;
+}
+.cropboxWeightBottom {
+  padding-top: 20px;
+  line-height: 5px;
+}
+.backgroundcalRow4 {
+  width: 100%;
+  height: 223px;
+  position: relative;
+  background-color: #69caf3;
+  align-self: flex-end;
+}
+.totalRow1 {
+  padding: 10px 20px 0 20px;
+}
+.totalRow2,
+.totalRow3,
+.totalRow4 {
+  padding: 0 20px 0 20px;
+}
+.totalRow1,
+.totalRow2,
+.totalRow3,
+.totalRow4 {
+  display: flex;
+  color: white;
+  align-items: baseline;
+  line-height: 5px;
+  font-family: kanit;
+  justify-content: space-between;
+}
+.totalRow1 h3,
+.totalRow2 h3,
+.totalRow3 h3,
+.totalRow4 h3 {
+  font-size: 14px;
+}
+.tick {
+  text-align: center;
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+.total {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 10px 20px 0 20px;
+}
+.total h2 {
+  color: white;
+  font-family: kanit;
+  font-size: 18px;
+}
+.total h1 {
+  color: white;
+  font-family: kanit;
+  font-size: 22px;
+  font-weight: bolder;
 }

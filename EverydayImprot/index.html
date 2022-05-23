@@ -366,94 +366,136 @@
         </div>
       </div>
       <div class="calContent">
-        <h1>คำนวนอัตราค่าขนส่งโดยประมาณ</h1>
-        <i class="fa-solid fa-xmark"></i>
-
-        <div class="calRow1">
-          <div class="descripCal">
-            <p>ค่าสินค้า</p>
-            <p>อัตราแลกเปลี่ยน (เรท)</p>
+        <div class="backgroundcalRow4"></div>
+        <div class="cropcalculate">
+          <div class="headCal">
+          <h1>คำนวนอัตราค่าขนส่งโดยประมาณ</h1>
+          <button class="close"><i class="fa-solid fa-xmark"></i></button>
           </div>
-          <div class="boxCal">
-            <input type="text">
-            <i class="fa-solid fa-xmark"></i>
-            <p>4.8</p>
-            <i class="fa-solid fa-equals"></i>
-            <p>999,999.00 ฿</p>
-          </div>
-        </div>
-
-        <h2>ตารางคำนวนสินค้าจะถูกคิดเป็นน้ำหนักจริงหรือน้ำหนักชิงปริมาตร (Dimention)</h2>
-        <div class="calRow2">
-          <div class="cateRow1">
-            <p>ประเภทสินค้า</p>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
-                สินค้าทั่วไป
-              </label>
+  
+          <div class="calRow1">
+            <div class="descripCal">
+              <p>ค่าสินค้า (¥)</p>
+              <p>อัตราแลกเปลี่ยน (เรท)</p>
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
-                สินค้าพิเศษ
-              </label>
-            </div>
-          </div>
-          
-          <div class="cateRow2">
-            <p>ประเภทการขนส่ง</p>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
-                ทางเรือ
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1">
-                ทางรถ
-              </label>
-            </div>
-          </div>
-
-          <div class="cateRow3">
-            <p>ประเภทการขนส่ง (ในไทย)</p>
-            <div class="boxZipcode">
-              <p>รหัสไปรษณีย์</p>
+            <div class="boxCal">
               <input type="text">
-            </div>
-            <div class="boxShipping">
-              <p>ประเภทการขนส่ง</p>
-              <select name="typeShipping" id="type">
-                <option value="1">ไปรษณีย์ไทย</option>
-                <option value="1">Kerry</option>
-                <option value="1">DHL</option>
-              </select>
+              <i class="fa-solid fa-xmark"></i>
+              <p>4.8</p>
+              <i class="fa-solid fa-equals"></i>
+              <p>999,999.00 ฿</p>
             </div>
           </div>
-        </div>
-
-        <div class="calRow3">
-          <div class="boxSize">
-            <p>กว้าง</p>
-            <input type="text" placeholder="CM">
-            <p>ยาว</p>
-            <input type="text" placeholder="CM">
-            <p>สูง</p>
-            <input type="text" placeholder="CM">
+  
+         
+          <div class="calRow2">
+            <div class="headRow2">
+              <h2>ตารางคำนวนสินค้าจะถูกคิดเป็นน้ำหนักจริงหรือน้ำหนักชิงปริมาตร (Dimention)</h2>
+            </div>
+            <div class="cropCate">
+              <div class="cateRow1">
+                <h1>ประเภทสินค้า</h1>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="border: 1px solid #3683c6;">
+                  <label class="form-check-label" for="flexRadioDefault1" style="font-size: 13px;">
+                    สินค้าทั่วไป
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="border: 1px solid #3683c6;">
+                  <label class="form-check-label" for="flexRadioDefault1" style="font-size: 13px;">
+                    สินค้าพิเศษ
+                  </label>
+                </div>
+              </div>
+              
+              <div class="cateRow2">
+                <h1>ประเภทการขนส่ง</h1>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="border: 1px solid #3683c6;">
+                  <label class="form-check-label" for="flexRadioDefault1" style="font-size: 13px;">
+                    ทางเรือ
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="border: 1px solid #3683c6;">
+                  <label class="form-check-label" for="flexRadioDefault1" style="font-size: 13px;">
+                    ทางรถ
+                  </label>
+                </div>
+              </div>
+    
+              <div class="cateRow3">
+                <h1>ประเภทการขนส่ง <br> (ในไทย)</h1>
+                <div class="boxZipcode">
+                  <p>รหัสไปรษณีย์</p>
+                  <input type="text">
+                </div>
+                <div class="boxShipping">
+                  <p>ประเภทการขนส่ง</p>
+                  <select name="typeShipping" id="type">
+                    <option value="1">ไปรษณีย์ไทย</option>
+                    <option value="1">Kerry</option>
+                    <option value="1">DHL</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            
           </div>
-          <div class="boxweightLeft">
-            <p>น้ำหนักจริงสินค้ารวม</p>
-            <input type="text" placeholder="KG">
-            <p>ปริมาตร : <span>0.008 CBM</span></p> <br>
-            น้ำหนักเชิงปริมาตร : 1.600 KG
+  
+          <div class="calRow3">
+            <div class="boxSize">
+              <p>กว้าง</p>
+              <input type="text" placeholder="CM">
+              <p>ยาว</p>
+              <input type="text" placeholder="CM">
+              <p>สูง</p>
+              <input type="text" placeholder="CM">
+            </div>
+            <div class="boxWeight">
+              <div class="boxweightLeft">
+                <p>น้ำหนักจริงสินค้ารวม</p>
+                <input type="text" placeholder="KG">
+                <div class="cropboxWeightBottom">
+                  <p>ปริมาตร : <span>0.008 CBM</span></p>
+                  <p>น้ำหนักเชิงปริมาตร : 1.600 KG</p>
+                </div>
+              </div>
+              <div class="boxweightRight">
+                <img src="../EverydayImprot/img/boxWight.png" alt="">
+              </div>
+            </div>
           </div>
-          <div class="boxweightRight">
-            <img src="../EverydayImprot/img/boxWight.png" alt="">
+  
+          <div class="calRow4">
+            <div class="totalRow1">
+              <h3>ค่าขนส่งคิดจาก</h3>
+              <p>น้ำหนัก</p>
+            </div>
+            <div class="totalRow2">
+              <h3>ค่าสินค้า</h3>
+              <p>209 ฿</p>
+            </div>
+            <div class="totalRow3">
+              <h3>ค่านำเข้าขนส่ง</h3>
+              <p>1,800 ฿</p>
+            </div>
+            <div class="totalRow4">
+              <h3>ค่าขนส่งในไทย</h3>
+              <p>300 ฿</p>
+            </div>
+            <div class="tick"></div>
+            <div class="total">
+              <h2>รวมค่าใช้จ่ายโดยประมาณ</h2>
+              <h1>2,309 ฿</h1>
+            </div>
           </div>
         </div>
       </div>
+      
+
+      
     </section>
 
     <footer id="aboutUs">

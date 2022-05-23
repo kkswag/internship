@@ -1,7 +1,7 @@
 // $(".menuBottom>button:last-child").click(function () {
 //   var val = $(".menubottom").css("display");
 
-//   $(".menubutton").toggleClass("dropdownLanguage");
+//   $(".menubutton").toggleClass("showLanguage");
 
 //   console.log("a");
 // });
@@ -10,9 +10,9 @@
 //   var val = $(".menuBottom").css("display");
 
 //   if (val == "none") {
-//     $(".menuButton").addClass("dropdownLanguage");
+//     $(".menuButton").addClass("showLanguage");
 //   } else if (val == "block") {
-//     $(".menuButton").removeClass("dropdownLanguage");
+//     $(".menuButton").removeClass("showLanguage");
 //   }
 //   console.log("a");
 // });
@@ -23,4 +23,24 @@ $(".menuBottom>button:last-child").hover(function () {
   $(".dropdownLanguage").toggleClass("showLanguage");
 
   console.log("a");
+});
+
+$(".calculate>img").click(function () {
+  var val = $(".calContent").css("display");
+
+  if (val == "none") {
+    $(".calContent").addClass("showCalculate");
+  } else if (val == "flex") {
+    $(".calContent").removeClass("showCalculate");
+  }
+  console.log("add");
+});
+
+$(".close").click(function () {
+  var val = $(".calContent").css("display");
+
+  if (val == "flex") {
+    $(".calContent").removeClass("showCalculate");
+  }
+  console.log("add");
 });
