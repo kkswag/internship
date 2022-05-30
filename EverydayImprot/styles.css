@@ -330,7 +330,7 @@ header {
   color: #5accfa;
 }
 .howtoNote {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
@@ -1080,6 +1080,7 @@ header {
   }
   .howtoNote {
     width: 80%;
+    margin-top: 20px;
   }
   .howtoAlert {
     width: 30px;
@@ -1088,9 +1089,21 @@ header {
     display: flex;
     width: 100%;
     height: 500px;
+    justify-content: center;
   }
   .cropboxService {
     display: none;
+  }
+  .boxInfoBuy {
+    width: 300px;
+    box-shadow: 0 0 5px 5px #efefef;
+  }
+  .infoBuy {
+    width: 300px;
+  }
+  .infoBuy img {
+    width: 40%;
+    height: auto;
   }
   .cropboxContentWhy {
     flex-direction: column;
