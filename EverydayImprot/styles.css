@@ -182,6 +182,9 @@ header {
 }
 .contentRegister {
   font-family: kanit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contentRegister h1 {
   font-size: 50px;
@@ -198,7 +201,8 @@ header {
   width: 200px;
   height: 40px;
 }
-.loginMb {
+.loginMb,
+.regisMb {
   display: none;
 }
 .contentLogin {
@@ -292,7 +296,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .howtoTop h1 {
   font-family: kanit;
@@ -326,6 +330,7 @@ header {
   color: #5accfa;
 }
 .howtoNote {
+  width: 80%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
@@ -1010,32 +1015,74 @@ header {
     color: white;
     margin-left: -4px;
   }
-  .loginMb {
-    display: flex;
-    text-align: center;
-    background-color: #ef8139 !important;
-    justify-content: center;
-    align-items: center;
-  }
-  .regisMb {
-    display: none;
+  .registerAndLogin {
+    top: 40%;
   }
   .cropboxContent {
     display: flex;
     text-align: center;
     align-items: flex-start;
+    justify-content: center;
+  }
+  .regis {
+    display: none;
+  }
+  .contentRegister > .loginMb {
+    display: flex;
+    text-align: center;
+    background-color: #ef8139 !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+  }
+  .regisMb {
+    display: flex;
+    justify-content: center;
+    color: #66c9f4;
   }
   .contentRegister h1 {
     font-size: 35px;
   }
+  .contentRegister p {
+    font-size: 14px;
+  }
   .contentLogin {
     display: none;
+  }
+  .contentHowto {
+    height: 1340px;
   }
   .contentHowtoImg {
     display: none;
   }
   .contentHowtoMbImg {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .descripHowToMbRow1,
+  .descripHowToMbRow2,
+  .descripHowToMbRow3,
+  .descripHowToMbRow4,
+  .descripHowToMbRow5 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .descripHowToMbRow1 p,
+  .descripHowToMbRow2 p,
+  .descripHowToMbRow3 p,
+  .descripHowToMbRow4 p,
+  .descripHowToMbRow5 p {
+    text-align: center;
+    flex-basis: 50%;
+    font-family: kanit;
+    font-size: 16px;
+  }
+  .howtoNote {
+    width: 80%;
+  }
+  .howtoAlert {
+    width: 30px;
   }
   .slideService {
     display: flex;
@@ -1050,6 +1097,9 @@ header {
   }
   .cropboxContentShipping {
     display: none;
+  }
+  .slideShipping {
+    display: flex;
   }
   .boxByBoat img,
   .boxByTruck img,
