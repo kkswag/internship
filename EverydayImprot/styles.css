@@ -349,9 +349,6 @@ header {
 .note p span {
   color: #ef8139;
 }
-.slideShipping {
-  display: none;
-}
 .cropboxService {
   display: flex;
   align-items: center;
@@ -359,7 +356,8 @@ header {
   flex-direction: column;
   width: 100%;
 }
-.cropboxService h1 {
+.service h1 {
+  text-align: center;
   font-size: 22px;
   font-family: kanit;
   font-weight: bolder;
@@ -481,12 +479,12 @@ header {
   align-items: center;
 }
 .boxSafe p {
-  width: 270px;
+  width: 50%;
   font-size: 14px;
   font-family: kanit;
 }
 .boxCall p {
-  width: 200px;
+  width: 40%;
   font-size: 14px;
   font-family: kanit;
 }
@@ -494,7 +492,7 @@ header {
   width: 100px;
 }
 .boxFreeRegis p {
-  width: 270px;
+  width: 46%;
   font-size: 14px;
   font-family: kanit;
 }
@@ -527,7 +525,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 470px;
+  height: 400px;
 }
 .cropboxContentShipping {
   display: flex;
@@ -535,13 +533,22 @@ header {
   justify-content: center;
   align-items: flex-end;
 }
-.cropboxContentShipping a {
+.boxShipping {
+  width: 100%;
+}
+.headShipping {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.headShipping a {
+  flex-basis: 100%;
+  text-align: end;
   text-decoration: none;
   color: black;
   font-family: kanit;
   font-size: 12px;
   font-weight: lighter;
-  padding-bottom: 10px;
 }
 .contentShipping {
   display: flex;
@@ -677,7 +684,6 @@ header {
   color: white;
   width: 65%;
 }
-
 .timeOpen {
   line-height: 7px;
   margin-top: 35px;
@@ -971,6 +977,9 @@ header {
     margin: 0 auto;
     align-items: center;
   }
+  #wrap {
+    width: 100%;
+  }
   .nav {
     display: flex;
     position: relative;
@@ -1050,7 +1059,7 @@ header {
     display: none;
   }
   .contentHowto {
-    height: 1340px;
+    height: 1200px;
   }
   .contentHowtoImg {
     display: none;
@@ -1099,7 +1108,13 @@ header {
     margin-bottom: 40px;
   }
   .cropboxService {
-    display: none;
+    align-items: flex-start;
+    overflow: scroll;
+  }
+  .boxContentService {
+    width: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .boxInfoBuy,
   .boxInfoImport,
@@ -1107,6 +1122,7 @@ header {
   .boxInfoPack {
     width: 280px;
     box-shadow: 0 0 5px 5px #efefef;
+    margin: 10px 20px;
   }
   .infoBuy,
   .infoImport,
@@ -1124,11 +1140,28 @@ header {
   .cropboxContentWhy {
     flex-direction: column;
   }
-  .cropboxContentShipping {
-    display: none;
+  .boxSafe,
+  .boxCall,
+  .boxFreeRegis {
+    justify-content: center;
   }
-  .slideShipping {
-    display: flex;
+  .boxSafe p,
+  .boxCall p,
+  .boxFreeRegis p {
+    width: 55%;
+    font-size: 16px;
+  }
+  .cropboxConcept {
+    width: 63%;
+    top: 8%;
+    left: 20%;
+  }
+  .cropboxContentShipping {
+    overflow: scroll;
+    align-items: flex-start;
+  }
+  .contentShipping {
+    transform: translateX(70px);
   }
   .boxByBoat img,
   .boxByTruck img,
