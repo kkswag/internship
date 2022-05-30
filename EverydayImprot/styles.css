@@ -1087,21 +1087,37 @@ header {
   }
   .slideService {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 500px;
     justify-content: center;
   }
+  .headService h1 {
+    font-family: kanit;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
   .cropboxService {
     display: none;
   }
-  .boxInfoBuy {
-    width: 300px;
+  .boxInfoBuy,
+  .boxInfoImport,
+  .boxInfoSent,
+  .boxInfoPack {
+    width: 280px;
     box-shadow: 0 0 5px 5px #efefef;
   }
-  .infoBuy {
-    width: 300px;
+  .infoBuy,
+  .infoImport,
+  .infoSent,
+  .infoPack {
+    width: 280px;
   }
-  .infoBuy img {
+  .infoBuy img,
+  .infoImport img,
+  .infoSent img,
+  .infoPack img {
     width: 40%;
     height: auto;
   }
