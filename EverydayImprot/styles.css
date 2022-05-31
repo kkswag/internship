@@ -1228,7 +1228,83 @@ header {
     align-items: center;
     text-align: center;
   }
+  .newsinfo {
+    margin-top: 20px;
+  }
+  .newsinfo p {
+    font-size: 16px;
+    font-weight: bolder;
+  }
   .infoemail input {
-    width: 215px;
+    width: 205px;
+    height: 45px;
+  }
+  .infoemail input::placeholder {
+    font-size: 14px;
+  }
+  .newsinfo button {
+    width: 80px;
+    height: 45px;
+    font-size: 16px;
+  }
+  .cropCopy {
+    height: 700px;
+  }
+  .cropboxAboutUs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .infoCompany {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .infoCompany img {
+    width: 280px;
+  }
+  .infoCompany h1 {
+    width: 90%;
+    font-size: 20px;
+  }
+  .infoCompany p {
+    width: 80%;
+    font-size: 16px;
+  }
+  .timeOpen p {
+    width: 100%;
+  }
+  .infoAboutUs {
+    width: 100%;
+    margin-top: 24px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .question p {
+    font-size: 20px;
+  }
+  .question a {
+    font-size: 16px;
+  }
+  .followUs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .followUs p {
+    margin-top: 40px;
+    flex-basis: 100%;
+    font-size: 20px;
+  }
+  .cropCopy > p {
+    font-size: 12px;
+  }
+  .calculate img {
+    width: 150px;
+  }
+  .rightFixed {
+    right: 0;
+    bottom: 0;
   }
 }
