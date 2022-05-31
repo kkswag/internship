@@ -44,3 +44,16 @@ $(".close").click(function () {
   }
   console.log("add");
 });
+
+// const truck = document.getElementById("truck");
+// truck.scrollIntoView({
+//   block: "start",
+//   inline: "center",
+// });
+
+// var step_width = $(".boxByBoat").width() + $(".boxByTruck").width();
+
+// document.getElementsByClassName("cropboxContentShipping").scrollLeft +=
+//   step_width;
+
+$(".cropboxContentShipping").scrollLeft(270);
